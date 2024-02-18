@@ -12,9 +12,9 @@ export const Navbar = () => {
   const categories = [
     { title: "Electronics", path: "/" },
     { title: "Clothing", path: "/" },
-    { title: "Jwelery", path: "/" },
+    { title: "Jewelry", path: "/" },
     { title: "Home & Living", path: "/" },
-    { title: "Wedding", path: "/" },
+    { title: "Toys & Entertainment", path: "/" },
     { title: "Arts & Collections", path: "/" },
   ];
   return (

@@ -1,7 +1,12 @@
 import React from 'react'
+import { Banner } from './Banner'
+import { Category } from './Category'
 
 export const Home = () => {
   return (
-    <div></div>
+    <div>
+        <Banner/>
+        <Category/>
+    </div>
   )
 }
