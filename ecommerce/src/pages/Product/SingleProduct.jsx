@@ -26,8 +26,8 @@ const SingleProduct = () => {
                 Nisi, iure a delectus, laudantium laborum quaerat perferendis
                 officia tenetur, autem quod quos inventore sit!
               </p>
-              <span className="my-3 text-xl text-yellow-500 flex items-center gap-1 sm:my-4">
-                {Array.from({ length: 3 }).map((_, index) => (
+              <span className="my-3 text-xl text-yellow-400 flex items-center gap-1 sm:my-4">
+                {Array.from({ length: 5 }).map((_, index) => (
                   <FaStar key={index} />
                 ))}
               </span>

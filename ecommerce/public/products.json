@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Iron Stand",
-      "category": "Home & Living",
+      "category": "Home&Living",
       "price": 2000,
       "image": "/category/images/product1.jpg"
     },
@@ -23,14 +23,14 @@
     {
         "id": 5,
         "title": "Wax Candles",
-        "category": "Home & Living",
+        "category": "Home&Living",
         "price": 300,
         "image": "/category/images/product3.jpg"
     },
     {
         "id": 6,
         "title": "BedSheet",
-        "category": "Home & Living",
+        "category": "Home&Living",
         "price": 800,
         "image": "/category/images/product4.jpg"
     },
@@ -58,7 +58,7 @@
     {
       "id": 10,
       "title": "Rug",
-      "category": "Home & Living",
+      "category": "Home&Living",
       "price": 200,
       "image": "/category/images/product8.jpg"
   },
@@ -79,7 +79,7 @@
 {
   "id": 13,
   "title": "Rug",
-  "category": "Home & Living",
+  "category": "Home&Living",
   "price": 1200,
   "image": "/category/images/product11.jpg"
 }

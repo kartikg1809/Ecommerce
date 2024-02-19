@@ -1,7 +1,10 @@
 import React from "react";
 import { FaFilter } from "react-icons/fa";
 import { Card } from "../../components/Card";
+import { useParams } from "react-router-dom";
 export const CategoryPage = () => {
+  const { category } = useParams();
+  console.log(category);
   return (
     <div>
         <div className="flex justify-end mb-4 mt-4 xl:px-28 px-4">
@@ -19,7 +22,7 @@ export const CategoryPage = () => {
             <option value="high-to-low">High to Low</option>
           </select>
       </div>
-      <Card/>
+      <Card category={category}/>
     </div>
   );
 };
