@@ -1,0 +1,297 @@
+[
+    {
+      "id": 1,
+      "title": "Iron Stand",
+      "category": "Home&Living",
+      "price": 2000,
+      "image": "/category/images/product1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Leather Jacket",
+      "category": "Clothing",
+      "price": 3000,
+      "image": "/category/images/product1.png"
+    },
+    {
+      "id": 3,
+      "title": "Fire TV Stick",
+      "category": "Electronics",
+      "price": 4500,
+      "image": "/category/images/product2.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Wax Candles",
+        "category": "Home&Living",
+        "price": 300,
+        "image": "/category/images/product3.jpg"
+    },
+    {
+        "id": 6,
+        "title": "BedSheet",
+        "category": "Home&Living",
+        "price": 800,
+        "image": "/category/images/product4.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Necklace",
+        "category": "Jewelry",
+        "price": 7000,
+        "image": "/category/images/product5.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Bangles",
+        "category": "Jewelry",
+        "price": 7000,
+        "image": "/category/images/product6.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Sweathshirt",
+        "category": "Clothing",
+        "price": 2450,
+        "image": "/category/images/product7.png"
+    },
+    {
+      "id": 10,
+      "title": "Rug",
+      "category": "Home&Living",
+      "price": 200,
+      "image": "/category/images/product8.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Blender",
+    "category": "Electronics",
+    "price": 100,
+    "image": "/category/images/product9.jpg"
+},
+{
+  "id": 12,
+  "title": "Television Set",
+  "category": "Electronics",
+  "price": 32000,
+  "image": "/category/images/product10.webp"
+},
+{
+  "id": 13,
+  "title": "Rug",
+  "category": "Home&Living",
+  "price": 1200,
+  "image": "/category/images/product11.jpg"
+},
+{
+  "id": 14,
+  "title": "Cushion Covers",
+  "category": "Home&Living",
+  "price": 800,
+  "image": "/category/images/product12.jpg"
+},
+{
+  "id": 15,
+  "title": "DIY Art Kit",
+  "category": "Arts&Collections",
+  "price": 800,
+  "image": "/category/images/product13.webp"
+},
+{
+  "id": 28,
+  "title": "Mixer & Blender",
+  "category": "Electronics",
+  "price": 1800,
+  "image": "/category/images/product14.jpg"
+},
+{
+  "id": 27,
+  "title": "Wall Art",
+  "category": "Arts&Collections",
+  "price": 2000,
+  "image": "/category/images/product15.webp"
+},
+{
+  "id": 16,
+  "title": "Hexagonal Wall Art ",
+  "category": "Arts&Collections",
+  "price": 3000,
+  "image": "/category/images/product16.webp"
+},
+{
+  "id": 17,
+  "title": "Nail Art",
+  "category": "Arts&Collections",
+  "price": 200,
+  "image": "/category/images/product17.webp"
+},
+{
+  "id": 18,
+  "title": "Yellow Chair",
+  "category": "Home&Living",
+  "price": 1200,
+  "image": "/category/images/product18.webp"
+},
+{
+  "id": 18,
+  "title": "Blendjet Blender",
+  "category": "Electronics",
+  "price": 2500,
+  "image": "/category/images/product19.jpg"
+},
+{
+  "id": 19,
+  "title": "Lego car set",
+  "category": "Toys&Entertainment",
+  "price": 500,
+  "image": "/category/images/product20.webp"
+},
+{
+  "id": 20,
+  "title": "LG TV",
+  "category": "Electronics",
+  "price": 50000,
+  "image": "/category/images/product21.webp"
+},
+{
+  "id": 21,
+  "title": "Sony TV",
+  "category": "Electronics",
+  "price": 48000,
+  "image": "/category/images/product22.webp"
+},
+{
+  "id": 22,
+  "title": "Horses Painting",
+  "category": "Arts&Collections",
+  "price": 800,
+  "image": "/category/images/product23.webp"
+},
+{
+  "id": 23,
+  "title": "Lord Krishna Painting",
+  "category": "Arts&Collections",
+  "price": 4800,
+  "image": "/category/images/product24.webp"
+},
+{
+  "id": 24,
+  "title": "Mural Paintings",
+  "category": "Arts&Collections",
+  "price": 650,
+  "image": "/category/images/product25.webp"
+},
+{
+  "id": 25,
+  "title": "Lego Truck set",
+  "category": "Toys&Entertainment",
+  "price": 440,
+  "image": "/category/images/product26.webp"
+},
+{
+  "id": 26,
+  "title": "Wall Clock",
+  "category": "Home&Living",
+  "price": 620,
+  "image": "/category/images/product27.jpg"
+},
+{
+  "id": 29,
+  "title": "TV Cabinet",
+  "category": "Home&Living",
+  "price": 16200,
+  "image": "/category/images/product28.webp"
+},
+{
+  "id": 30,
+  "title": "Lego Helicopter Set",
+  "category": "Toys&Entertainment",
+  "price": 1220,
+  "image": "/category/images/product29.webp"
+},
+{
+  "id": 31,
+  "title": "Ancient Art",
+  "category": "Arts&Collections",
+  "price": 6200,
+  "image": "/category/images/product30.webp"
+},
+{
+  "id": 32,
+  "title": "Lego Offroader Set",
+  "category": "Toys&Entertainment",
+  "price": 3400,
+  "image": "/category/images/product31.webp"
+},
+{
+  "id": 33,
+  "title": "Pot Painting",
+  "category": "Home&Living",
+  "price": 1440,
+  "image": "/category/images/product32.webp"
+},
+{
+  "id": 34,
+  "title": "Cyan Rug",
+  "category": "Home&Living",
+  "price": 2400,
+  "image": "/category/images/product33.jpg"
+},
+{
+  "id": 35,
+  "title": "Rajasthani Art",
+  "category": "Arts&Collections",
+  "price": 3400,
+  "image": "/category/images/product34.webp"
+},
+{
+  "id": 36,
+  "title": "Wall Clock",
+  "category": "Home&Living",
+  "price": 720,
+  "image": "/category/images/product35.jpg"
+},
+{
+  "id": 37,
+  "title": "Art Supplies",
+  "category": "Arts&Collections",
+  "price": 360,
+  "image": "/category/images/product36.webp"
+},
+{
+  "id": 38,
+  "title": "Alexa Echo Dot",
+  "category": "Electronics",
+  "price": 3500,
+  "image": "/category/images/product37.webp"
+},
+{
+  "id": 39,
+  "title": "Gold Necklace",
+  "category": "Jewelry",
+  "price": 62000,
+  "image": "/category/images/product38.jpg"
+},
+{
+  "id": 40,
+  "title": "Pendant set",
+  "category": "Jewelry",
+  "price": 6200,
+  "image": "/category/images/product39.jpg"
+},
+{
+  "id": 26,
+  "title": "Samsung S23 Ultra",
+  "category": "Electronics",
+  "price": 150000,
+  "image": "/category/images/product40.png"
+},
+{
+  "id": 26,
+  "title": "MacBook Pro",
+  "category": "Electronics",
+  "price": 90000,
+  "image": "/category/images/product41.png"
+}
+  ]
+  
