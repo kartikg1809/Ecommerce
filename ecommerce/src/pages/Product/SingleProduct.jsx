@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import image from "/category/images/product32.webp";
+import { useParams } from "react-router-dom";
 
 const SingleProduct = () => {
+  const {id}=useParams();
+  const [Products,setProducts]=useState([]);
+
+  useEffect(()=>{
+    const fetchData=async()=>{
+      try{
+        const response=await fetch('/products.json');
+        const data=await response.json();
+        const p=data.filter((item)=>item.id==id);
+        setProducts(p[0]);
+      }catch(e){
+        console.log("Error fetching products",e);
+      }
+    }
+    fetchData();
+  },[id]);
+
+  const {title,category,price,image}=Products;
   return (
-    <div className="mt-14 max-w-screem-2xl container mx-auto xl:px-14 px-4">
+    <div className="mt-10 max-w-screem-2xl container mx-auto xl:px-14 px-4">
       <div className="p-3 max-w-7xl m-auto">
         <div className="mt-6 sm:mt-10">
           <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-12">
@@ -12,19 +31,18 @@ const SingleProduct = () => {
               <img
                 src={image}
                 alt=""
-                className="h-auto max-w-full mx-auto rounded-lg"
+                className="h-auto max-w-full mx-auto rounded-lg pt-10"
               />
             </div>
             <div>
-              <h1 className="text-5xl text-black text-left">Title</h1>
+              <h1 className="text-5xl text-black text-left text-primary">{title}</h1>
               <p className="mt-3 text-black tex-base leading-6 text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad
                 perferendis aspernatur illum officiis eum nisi, modi animi in
                 est esse ullam sint ipsum non eos ea molestiae nulla tempora!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Accusantium perspiciatis aliquam, cum corporis ratione enim.
-                Nisi, iure a delectus, laudantium laborum quaerat perferendis
-                officia tenetur, autem quod quos inventore sit!
+                Nisi, iure a delectus!
               </p>
               <span className="my-3 text-xl text-yellow-400 flex items-center gap-1 sm:my-4">
                 {Array.from({ length: 5 }).map((_, index) => (
@@ -32,7 +50,7 @@ const SingleProduct = () => {
                 ))}
               </span>
               <span className="text-xl text-red-500 font-semibold sm:text-2xl">
-                ₹ 100
+                ₹ {price}
               </span>
               <div className="mt-4">
                 <div className="text-left flex flex-col gap-2">

@@ -1,28 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Category } from '../pages/home/Category';
 
-export const Card = ({ category }) => {
-  const [filteredItems, setFilteredItems] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/products.json");
-        const data = await response.json();
-        const categoryFilteredItems = data.filter((item) => item.category === category);
-        // console.log(Category);
-        // console.log(categoryFilteredItems);
-        setFilteredItems(categoryFilteredItems);
-        } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-    fetchData();
-  }, [category]);
+export const Card = ({newItems}) => {
   return (
     <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center justify-center gap-12 shadow-sm md:px-28 px-4 py-8">
-      {filteredItems.map((item) => (
+      {newItems.map((item) => (
         <div key={item.id}>
           <Link to={`/shop/${item.id}`}>
             <img
